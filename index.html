@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="paragraph">Sanoq sistema nima?</h1><br>
+        <hr>
+        <div class="text1">
+            <h1 class="pas">Sanoq sistemasi oddiy qilib aytganda kompyuter biladigan til. U til 0 va 1 raqamlaridan iborat bo'ladi. Kompyuter bizni tilimizni tushunmagani uchun odamlar shu tilni ixtiro qilishgan.</h1>
+            <div class="imgimg">
+                <h1>Mana uning ko'rinishi</h1>
+                <div class="div">
+                    <button id="toggleButton" onclick="toggleImage()">Ko'rish</button>
+                    <div class="image-container"> 
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ84gnflAZjZJMTBApdAViKhwE-G9RswU-0e0wFWqciyQ&s" alt="Rasm">
+                    </div>
+                </div>
+            </div>
+            <h1 class="h1">Shu tariqa hamma raqamlar, harflar, so'zlar, jumalalar va boshqa narsalarni kompyuter o'z xotirasiga saqlaganda, bularning hammasini 0 va 1 larda saqlaydi va bizga ko'rsatayotganda yana o'z ko'rinishida ko'rsatadi. Raqamlarni saqlayotganda 01 lar qancha ko'p son ham shuncha kattalashaveradi!</h1>
+        </div>
+        <hr>
+        <hr>
+        <hr>
+        <div class="text2">
+            <h1 class="hh">10 likdan 2 lik ga o’tish. Yani  oddiy raqmdan kompyuter tushunadigan tilga o’tish:</h1>
+            <h1>Misol uchun: </h1>
+            <img src="./img1.png" alt="">
+        </div>
+        <div class="text2">
+            <h1>2 likdan 10 likga o’tish.Yani komputer tilidan yana oddiy tilga o’tish.</h1>
+            <h1>2-misol: </h1>
+            <img src="./gt.png" alt="">
+        </div>
+        <h1 class="footer">TAMOM</h1>
+        <footer>
+            <h1>G'anisherov Shukurullo 2012</h1>
+            <h1 class="text">Youtube kanal @ShukurulloGanisherov</h1>
+            <h1 class="tx">My git hub account  <br>  <a href="https://github.com/ShukurulloGanisherov2012">Mening git hub dagi accountim</a></h1>
+        </footer>
+    </div>
+    
+    <script>
+        function toggleImage() {
+            var imageContainer = document.querySelector('.image-container');
+            var toggleButton = document.getElementById('toggleButton');
+
+            if (imageContainer.style.display === 'none') {
+                imageContainer.style.display = 'block'; 
+                toggleButton.textContent = 'Yopish'; 
+            } else {
+                imageContainer.style.display = 'none'; 
+                toggleButton.textContent = "Ko'rish"; 
+            }
+        }
+    </script>
+</body>
+</html>
+
